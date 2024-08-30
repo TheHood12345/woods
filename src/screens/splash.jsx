@@ -2,7 +2,7 @@ function SplashScreen(props){
     
     return (
         <div className="splash_screen" style={{display:`${props.display}`}}>
-            <div style={{width:"80%",opacity:"0.7",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",paddingTop:"20px",paddingLeft:"20px",paddingRight:"20px",borderRadius:"10px",backgroundColor: "black"}}>
+            <div style={{width:"80%",opacity:"0",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",paddingTop:"20px",paddingLeft:"20px",paddingRight:"20px",borderRadius:"10px",backgroundColor: "black"}}>
                 <h1 className="woods_des">SAVE THE TREES WITH <span className="woods_des">WOODS</span></h1>
             </div>
             

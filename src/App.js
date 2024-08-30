@@ -8,6 +8,7 @@ import ConnectWallet from './screens/connect_wallet';
 import Board from './screens/board';
 import Invites from './screens/invites';
 import Tasks from './screens/tasks';
+//import Profile from './screens/profile';
 
 function App() {
   const [splash_l_1,set_splash_l_1] = useState(false);
@@ -66,6 +67,8 @@ function App() {
 
         {/* This is for each page */}
         <div className='workbook'>
+
+        
 
           <Claim display={claim_display}/>
           <ConnectWallet display={wallet_display}/>
