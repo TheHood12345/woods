@@ -3,7 +3,7 @@ function Profile(props){
     return (
         <div className={`board`} style={{display:`${props.display}`,position:"absolute", width:`${props.width}`,height:`${props.height}`}}>
 
-            <div className="board_div1">
+            <div className="board_div1" >
                 <h1>LEADER BOARD</h1>
             </div>
             <>

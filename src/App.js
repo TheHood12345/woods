@@ -8,7 +8,7 @@ import ConnectWallet from './screens/connect_wallet';
 import Board from './screens/board';
 import Invites from './screens/invites';
 import Tasks from './screens/tasks';
-//import Profile from './screens/profile';
+// import Profile from './screens/profile';
 
 function App() {
   const [splash_l_1,set_splash_l_1] = useState(false);
@@ -62,6 +62,7 @@ function App() {
       {/* This is the splash screen */}
       <SplashScreen display={splash_display} loaded1={splash_l_1} loaded2={splash_l_2} loaded3={splash_l_3} loaded4={splash_l_4} loaded5={splash_l_5}/>
       
+      {/* <Profile display={profile_display} profile_load={profile_load}/> */}
       {/* This is the entire loaded screen */}
       <div className="the_body" style={{display:`${the_body_display}`}}>
 
